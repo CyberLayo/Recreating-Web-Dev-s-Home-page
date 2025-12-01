@@ -1,8 +1,8 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Google Sans,Noto Sans,Noto Sans JP,Noto Sans KR,Noto Naskh Arabic,Noto Sans Thai,Noto Sans Hebrew,Noto Sans Bengali,sans-serif;
+  font-family: Google Sans, Noto Sans, Noto Sans JP, Noto Sans KR, Noto Naskh Arabic, Noto Sans Thai, Noto Sans Hebrew, Noto Sans Bengali, sans-serif;
 }
 
 .nav {
@@ -29,9 +29,9 @@
   font-size: 14px;
 }
 
-.nav-links li a{
+.nav-links li a {
   text-decoration: none;
-  color: rgb(119,123,141);
+  color: rgb(119, 123, 141);
 }
 
 .btn1 {
@@ -40,9 +40,14 @@
   background-color: #fff;
   padding: 10px;
 }
+
 .btn1:hover {
   background-color: #f5f6f7;
   border-radius: 20px;
+}
+
+#menu-bar {
+  display: none;
 }
 
 .p1 {
@@ -71,7 +76,7 @@
   margin: 30px;
 }
 
-.section1-img  img {    
+.section1-img img {
   max-width: 540px;
   padding-right: 30px;
 }
@@ -96,8 +101,8 @@
 .section2 {
   display: flex;
   justify-content: center;
-  padding: 20px  30px;
-  background-color: rgb(245,246,247);
+  padding: 20px 30px;
+  background-color: rgb(245, 246, 247);
 }
 
 .section2-text {
@@ -105,16 +110,17 @@
 }
 
 .section2-text h2 {
-  color: rgb(32,33,36);
+  color: rgb(32, 33, 36);
   font-size: 30px;
 }
 
 .section2-text p {
   font-size: 16px;
-  color: rgb(32,33,36);
+  color: rgb(32, 33, 36);
   line-height: 25px;
 }
-.section2-text a{
+
+.section2-text a {
   text-decoration: none;
   color: #202124;
 }
@@ -123,7 +129,7 @@
   text-decoration: underline;
 }
 
-.section2 .section2-img img{
+.section2 .section2-img img {
   width: 320px;
   border-radius: 40px;
   padding: 20px;
@@ -151,19 +157,19 @@
   margin: 0 10px;
   font-size: 18px;
 }
-          /* Section Three */
+
+/* Section Three */
 .section3 {
   display: flex;
   padding: 50px;
   justify-content: center;
   text-decoration: none;
-  padding-right: 20px;
+  gap: 30px;
 }
 
 .section3 .card1 {
   background-color: #f5f6f7;
   padding: 50px;
-  margin-right: 30px;
   border-radius: 30px;
 }
 
@@ -176,7 +182,7 @@
 .section3 .card1 h3 a {
   font-size: 30px;
   text-decoration: none;
-  color: rgb(32,33,36);
+  color: rgb(32, 33, 36);
 }
 
 .section3 .card1 h3:hover {
@@ -186,17 +192,17 @@
 .card1 p {
   font-size: 16px;
   line-height: 25px;
-  color: rgb(32,36,56);
+  color: rgb(32, 36, 56);
 }
 
 .card1 p a {
   text-decoration: none;
-  color: rgb(32,36,56);
+  color: rgb(32, 36, 56);
 }
 
 .card1 p a:hover {
   text-decoration: underline;
-  color: rgb(32,36,56);
+  color: rgb(32, 36, 56);
 }
 
 .btn3 {
@@ -231,12 +237,12 @@
 
 .p3 {
   font-size: 20px;
-  color: rgb(32,36,56);
+  color: rgb(32, 36, 56);
 }
 
 .p4 {
   font-size: 16px;
-  color: rgb(32,36,56);
+  color: rgb(32, 36, 56);
 }
 
 .sec4-cards {
@@ -245,13 +251,12 @@
   justify-content: space-between;
   align-items: center;
   text-decoration: none;
-  padding-right: 20px;
+  gap: 30px;
 }
 
 .sec4-cards .card2 {
-  background-color: rgb(255,255,255);
+  background-color: rgb(255, 255, 255);
   padding: 60px 50px;
-  margin-right: 30px;
   border-radius: 30px;
   width: 40%;
 }
@@ -287,7 +292,7 @@ i:hover {
 .card2 p {
   font-size: 15px;
   font-weight: 200;
-  color: rgb(32,36,56);
+  color: rgb(32, 36, 56);
   line-height: 25px;
 }
 
@@ -315,17 +320,16 @@ i:hover {
 
 .sec5-text {
   padding: 20px 70px 40px 50px;
-  
 }
 
 .p5 {
   font-size: 20px;
-  color: rgb(32,36,56);
+  color: rgb(32, 36, 56);
 }
 
 .p6 {
   font-size: 16px;
-  color: rgb(32,36,56);
+  color: rgb(32, 36, 56);
 }
 
 .sec5-cards {
@@ -333,13 +337,12 @@ i:hover {
   padding: 50px;
   justify-content: center;
   text-decoration: none;
-  padding-right: 20px;
+  gap: 30px;
 }
 
 .sec5-cards .card3 {
   background-color: #f5f6f7;
   padding: 50px;
-  margin-right: 30px;
   border-radius: 30px;
 }
 
@@ -349,14 +352,14 @@ i:hover {
   border-radius: 40px;
 }
 
-.card3 h3{
+.card3 h3 {
   text-align: center;
 }
 
 .sec5-cards .card3 h3 a {
   font-size: 30px;
   text-decoration: none;
-  color: rgb(32,33,36);
+  color: rgb(32, 33, 36);
 }
 
 .sec5-cards .card3 h3:hover {
@@ -367,17 +370,17 @@ i:hover {
   text-align: center;
   line-height: 25px;
   font-size: 15px;
-  color: rgb(32,36,56);
+  color: rgb(32, 36, 56);
 }
 
 .card3 p a {
   text-decoration: none;
-  color: rgb(32,36,56);
+  color: rgb(32, 36, 56);
 }
 
 .card3 p a:hover {
   text-decoration: underline;
-  color: rgb(32,36,56);
+  color: rgb(32, 36, 56);
 }
 
 .card3 h5 {
@@ -407,8 +410,8 @@ i:hover {
 .section6 {
   display: flex;
   justify-content: center;
-  padding: 20px  30px;
-  background-color: rgb(245,246,247);
+  padding: 20px 30px;
+  background-color: rgb(245, 246, 247);
 }
 
 .section6-text {
@@ -416,15 +419,16 @@ i:hover {
 }
 
 .section6-text h2 {
-  color: rgb(32,33,36);
+  color: rgb(32, 33, 36);
   font-size: 30px;
 }
 
 .section6-text p {
   font-size: 16px;
-  color: rgb(32,33,36);
+  color: rgb(32, 33, 36);
 }
-.section6-text a{
+
+.section6-text a {
   text-decoration: none;
   color: #202124;
 }
@@ -433,7 +437,7 @@ i:hover {
   text-decoration: underline;
 }
 
-.section6 .section6-img img{
+.section6 .section6-img img {
   width: 320px;
   border-radius: 40px;
   padding: 20px;
@@ -521,12 +525,13 @@ i:hover {
 
 .cat-b h3 {
   font-size: 20px;
-  line-height: 35px;
+  padding-bottom: 10px;
+  line-height: 1.5;
 }
 
 .cat-b p {
   font-size: 16px;
-  line-height: 25px;
+  line-height: 1.5;
 }
 
 .cat-b h3 a {
@@ -562,13 +567,17 @@ i:hover {
   font-size: 20px;
 }
 
-input[type="text"], input[type="email"], select {
+input[type="text"],
+input[type="email"],
+select {
   width: 100%;
   height: 35px;
   padding: 5px;
 }
 
-.name input[type="first name"], input[type="last name"], select {
+.name input[type="first name"],
+input[type="last name"],
+select {
   width: 100%;
   height: 35px;
   padding: 5px;
@@ -586,4 +595,875 @@ input[type="text"], input[type="email"], select {
 
 .sec13-btn:hover {
   background-color: #bbd6f1;
+}
+
+
+
+
+/* Responsiveness */
+
+@media screen and (max-width:480px) {
+
+  .nav {
+    padding: 0 10px;
+  }
+
+  .nav-header {
+    width: 100px;
+  }
+
+  .nav-links {
+    display: none;
+  }
+
+  #menu-bar {
+    display: block;
+  }
+
+  .p1 {
+    padding: 10px;
+    font-size: 12px;
+  }
+
+  .p2 {
+    padding: 10px;
+    font-size: 12px;
+  }
+
+  /* Section One */
+  .section1 {
+    flex-wrap: wrap;
+    padding: 40px 10px;
+    margin: 10px;
+    gap: 20px;
+  }
+
+  .section1-img img {
+    max-width: 220px;
+    padding-right: 10px;
+  }
+
+  .section1-text {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+
+  .section1 h1 {
+    font-size: 32px;
+  }
+
+  .section1 p {
+    font-size: 16px;
+  }
+
+  /* Section Two */
+  .section2 {
+    flex-wrap: wrap;
+    padding: 20px 10px;
+  }
+
+  .section2-text {
+    padding: 10px;
+  }
+
+  .section2-text h2 {
+    font-size: 20px;
+  }
+
+  .section2-text p {
+    font-size: 12px;
+  }
+
+  .section2 .section2-img img {
+    width: 250px;
+  }
+
+  .button1 {
+    padding: 30px 0px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+
+  .btn2 {
+    padding: 10px;
+    margin: 0px;
+    font-size: 12px;
+  }
+
+  .btn2:hover {
+    padding: 10px;
+    margin: 0px;
+    font-size: 12px;
+  }
+
+  /* Section Three */
+  .section3 {
+    flex-wrap: wrap;
+    padding: 10px;
+  }
+
+  .section3 .card1 {
+    padding: 10px;
+  }
+
+  .section3 .card1 img {
+    width: 220px;
+    padding: 10px;
+  }
+
+  .section3 .card1 h3 a {
+    font-size: 22px;
+  }
+
+  .card1 p {
+    font-size: 12px;
+  }
+
+  .btn3 {
+    padding: 10px 30px;
+    margin: 20px;
+    font-size: 16px;
+  }
+
+  /* Section Four */
+  .section4 {
+    padding: 10px;
+  }
+
+  .sec4-text {
+    padding: 20px 10px;
+  }
+
+  .p3 {
+    font-size: 18px;
+  }
+
+  .p4 {
+    font-size: 14px;
+  }
+
+  .sec4-cards {
+    flex-wrap: wrap;
+    padding: 10px;
+  }
+
+  .sec4-cards .card2 {
+    padding: 60px 10px;
+    width: 100%;
+  }
+
+  .card2 h3 {
+    font-size: 20px;
+    padding: 30px;
+  }
+
+  .card2 p {
+    font-size: 13px;
+  }
+
+
+  .btn4 {
+    padding: 10px 20px;
+    margin: 20px;
+    font-size: 16px;
+  }
+
+  /* Section Five */
+
+  .sec5-text {
+    padding: 20px 20px 40px 20px;
+  }
+
+  .p5 {
+    font-size: 18px;
+  }
+
+  .p6 {
+    font-size: 15px;
+  }
+
+  .sec5-cards {
+    flex-wrap: wrap;
+    padding: 10px;
+  }
+
+  .sec5-cards .card3 {
+    padding: 10px;
+  }
+
+  .sec5-cards .card3 img {
+    width: 220px;
+    padding: 10px;
+  }
+
+  .sec5-cards .card3 h3 a {
+    font-size: 22px;
+  }
+
+  .card3 p {
+    font-size: 12px;
+  }
+
+  .card3 h5 {
+    padding: 20px 0;
+  }
+
+  .btn5 {
+    padding: 10px 20px;
+    margin: 30px;
+    font-size: 16px;
+  }
+
+  /* Section 6 */
+  .section6 {
+    flex-wrap: wrap;
+    padding: 10px;
+  }
+
+  .section6-text {
+    padding: 0px;
+  }
+
+  .section6-text h2 {
+    font-size: 16px;
+  }
+
+  .section6-text p {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  .section6 .section6-img img {
+    width: 300px;
+    padding: 10px;
+    padding-top: 10px;
+  }
+
+  .btn6 {
+    padding: 10px 40px;
+    margin: 20px auto;
+    font-size: 16px;
+  }
+
+  /* Section 7-12 */
+  .categories {
+    flex-wrap: wrap;
+    padding: 15px;
+    line-height: 1.4;
+  }
+
+  .cat-a {
+    padding-right: 10px;
+  }
+
+  .cat-a h3 {
+    font-size: 18px;
+  }
+
+  .cat-a p a {
+    font-size: 14px;
+  }
+
+  .cat-a p {
+    font-size: 14px;
+  }
+
+  .cat-btn {
+    padding: 10px 10px;
+    margin: 20px;
+    font-size: 18px;
+  }
+
+  .cat-btn a {
+    font-size: 16px;
+  }
+
+  .cat-b {
+    padding-left: 10px;
+  }
+
+  .cat-b h3 {
+    font-size: 12px;
+  }
+
+  .cat-b p {
+    font-size: 12px;
+  }
+
+  .cat-b h3 a {
+    font-size: 14px;
+  }
+
+  /* Section 13 */
+  .section13 {
+    padding: 40px 10px;
+  }
+
+  .name {
+    display: flex;
+    gap: 10px;
+  }
+
+  .section13 h2 {
+    font-size: 20px;
+  }
+
+  .section13 .p13 {
+    font-size: 14px;
+  }
+
+  .sec13-btn {
+    font-size: 15px;
+    padding: 10px 20px;
+  }
+}
+
+@media (min-width:481px) and (max-width: 768px) {
+  .nav {
+    padding: 0 10px;
+  }
+
+  .nav-header {
+    width: 120px;
+  }
+
+  .nav-links {
+    display: none;
+  }
+
+  #menu-bar {
+    display: block;
+  }
+
+  .p1 {
+    padding: 15px;
+    font-size: 14px;
+  }
+
+  .p2 {
+    padding: 15px;
+    font-size: 12px;
+  }
+
+  /* Section One */
+  .section1 {
+    flex-wrap: wrap;
+    padding: 40px 20px;
+    gap: 20px;
+  }
+
+  .section1-img img {
+    max-width: 350px;
+    padding-right: 20px;
+  }
+
+  .section1-text {
+    padding-right: 30px;
+    padding-left: 10px;
+  }
+
+  .section1 h1 {
+    font-size: 48px;
+  }
+
+  .section1 p {
+    font-size: 18px;
+  }
+
+  /* Section Two */
+  .section2 {
+    flex-wrap: wrap;
+    padding: 20px;
+  }
+
+  .section2-text {
+    padding: 20px;
+  }
+
+  .section2-text h2 {
+    font-size: 20px;
+  }
+
+  .section2-text p {
+    font-size: 14px;
+  }
+
+  .section2 .section2-img img {
+    width: 320px;
+  }
+
+  .button1 {
+    padding: 30px 50px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+
+  .btn2 {
+    padding: 10px 30px;
+    margin: 0 10px;
+    font-size: 16px;
+  }
+
+  /* Section Three */
+  .section3 {
+    flex-wrap: wrap;
+    padding: 20px;
+  }
+
+  .section3 .card1 {
+    padding: 20px;
+  }
+
+  .section3 .card1 img {
+    width: 300px;
+    padding: 20px;
+  }
+
+  .section3 .card1 h3 a {
+    font-size: 25px;
+  }
+
+  .card1 p {
+    font-size: 14px;
+  }
+
+  .btn3 {
+    padding: 10px 40px;
+    margin: 40px;
+    font-size: 18px;
+  }
+
+  /* Section Four */
+  .section4 {
+    padding: 20px;
+  }
+
+  .sec4-text {
+    padding: 20px;
+  }
+
+  .p3 {
+    font-size: 20px;
+  }
+
+  .p4 {
+    font-size: 16px;
+  }
+
+  .sec4-cards {
+    flex-wrap: wrap;
+    padding: 25px;
+    gap: 30px;
+  }
+
+  .sec4-cards .card2 {
+    padding: 60px 50px;
+    width: 100%;
+  }
+
+  .card2 h3 {
+    font-size: 20px;
+    padding: 30px;
+  }
+
+  .card2 p {
+    font-size: 15px;
+  }
+
+  .btn4:hover {
+    background-color: #fff;
+    color: rgb(26, 115, 232);
+    border: none;
+    padding: 10px 40px;
+    margin: 40px;
+    font-size: 18px;
+  }
+
+  /* Section Five */
+
+  .sec5-text {
+    padding: 20px 30px 40px 30px;
+  }
+
+  .sec5-cards {
+    flex-wrap: wrap;
+    padding: 25px;
+  }
+
+  .sec5-cards .card3 {
+    padding: 30px;
+  }
+
+  .sec5-cards .card3 img {
+    width: 250px;
+    padding: 20px;
+  }
+
+  .sec5-cards .card3 h3 a {
+    font-size: 24px;
+  }
+
+  .card3 p {
+    font-size: 15px;
+  }
+
+  .card3 h5 {
+    padding: 20px 0;
+  }
+
+  .btn5 {
+    padding: 10px 40px;
+    margin: 40px;
+    font-size: 18px;
+  }
+
+  /* Section 6 */
+  .section6 {
+    flex-wrap: wrap;
+    padding: 20px;
+  }
+
+  .section6-text {
+    padding: 20px;
+  }
+
+  .section6-text h2 {
+    font-size: 26px;
+  }
+
+  .section6-text p {
+    font-size: 14px;
+  }
+
+  .section6 .section6-img img {
+    width: 320px;
+    padding: 20px;
+    padding-top: 20px;
+  }
+
+
+  .btn6 {
+    padding: 10px 40px;
+    margin: 20px auto;
+    font-size: 16px;
+  }
+
+  /* Section 7-12 */
+  .categories {
+    flex-wrap: wrap;
+    padding: 15px;
+    line-height: 1.4;
+  }
+
+  .cat-a {
+    padding-right: 20px;
+  }
+
+  .cat-a h3 {
+    font-size: 26px;
+  }
+
+
+  .cat-a p a {
+    font-size: 20px;
+  }
+
+  .cat-a p {
+    font-size: 20px;
+  }
+
+  .cat-btn {
+    padding: 10px 40px;
+    margin: 20px;
+    font-size: 18px;
+  }
+
+  .cat-b h3 {
+    font-size: 20px;
+  }
+
+  .cat-b h3 a {
+    font-size: 20px;
+  }
+
+
+  /* Section 13 */
+  .section13 {
+    padding: 80px 100px;
+  }
+
+  .section13 h2 {
+    font-size: 30px;
+  }
+
+  .section13 .p13 {
+    font-size: 18px;
+  }
+
+  .sec13-btn {
+    font-size: 15px;
+    padding: 10px 20px;
+  }
+
+  .sec13-btn:hover {
+    background-color: #bbd6f1;
+  }
+}
+
+
+@media (min-width:769px) and (max-width: 1279px) {
+
+  /* Section One */
+  .section1 {
+    padding: 40px 20px 40px 20px;
+    margin: 10px;
+  }
+
+  .section1-img img {
+    max-width: 460px;
+    padding-right: 30px;
+  }
+
+  .section1-text {
+    padding-right: 60px;
+  }
+
+  .section1 h1 {
+    font-size: 50px;
+  }
+
+  .section1 p {
+    font-size: 18px;
+  }
+
+  /* Section Two */
+  .section2 {
+    padding: 20px 30px;
+  }
+
+  .section2-text {
+    padding: 30px;
+  }
+
+  .section2-text h2 {
+    font-size: 26px;
+  }
+
+  .section2-text p {
+    font-size: 16px;
+  }
+
+  .button1 {
+    padding: 30px 50px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .btn2 {
+    padding: 10px 50px;
+    margin: 0 10px;
+    font-size: 18px;
+  }
+
+  /* Section Three */
+  .section3 {
+    padding: 20px;
+    gap: 20px;
+  }
+
+  .section3 .card1 {
+    padding: 20px;
+  }
+
+  .section3 .card1 img {
+    width: 200px;
+    padding: 20px;
+  }
+
+  .section3 .card1 h3 a {
+    font-size: 24px;
+  }
+
+  .card1 p {
+    font-size: 14px;
+  }
+
+  .btn3 {
+    padding: 10px 25px;
+    margin: 20px;
+    font-size: 18px;
+  }
+
+  /* Section Four */
+  .section4 {
+    padding: 20px;
+  }
+
+  .sec4-text {
+    padding: 20px 30px;
+  }
+
+  .p3 {
+    font-size: 20px;
+  }
+
+  .p4 {
+    font-size: 16px;
+  }
+
+  .sec4-cards {
+    padding: 20px;
+    gap: 20px;
+  }
+
+  .sec4-cards .card2 {
+    padding: 60px 30px;
+    width: 33%;
+  }
+
+  .card2 h3 {
+    font-size: 20px;
+    padding: 20px;
+  }
+
+  .card2 p {
+    font-size: 15px;
+  }
+
+  .btn4 {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 16px;
+  }
+
+  /* Section Five */
+  .sec5-text {
+    padding: 20px 40px 40px 30px;
+  }
+
+  .p5 {
+    font-size: 20px;
+  }
+
+  .p6 {
+    font-size: 16px;
+  }
+
+  .sec5-cards {
+    padding: 20px;
+    gap: 20px;
+  }
+
+  .sec5-cards .card3 {
+    padding: 20px;
+  }
+
+  .sec5-cards .card3 img {
+    width: 200px;
+    padding: 20px;
+  }
+
+  .sec5-cards .card3 h3 a {
+    font-size: 22px;
+  }
+
+  .card3 p {
+    font-size: 15px;
+  }
+
+  .card3 h5 {
+    padding: 20px 0;
+  }
+
+  .btn5 {
+    padding: 10px 25px;
+    margin: 20px;
+    font-size: 18px;
+    background-color: #fff;
+  }
+
+  /* Section 6 */
+  .section6 {
+    padding: 20px;
+  }
+
+  .section6-text {
+    padding: 30px;
+  }
+
+  .section6-text h2 {
+    font-size: 26px;
+  }
+
+  .section6-text p {
+    font-size: 16px;
+  }
+
+  .section6 .section6-img img {
+    width: 320px;
+    border-radius: 40px;
+    padding: 20px;
+    padding-top: 40px;
+  }
+
+
+  .btn6 {
+    padding: 10px 20px;
+    margin-top: 40px;
+    margin-left: 200px;
+    font-size: 18px;
+  }
+
+  /* Section 7-12 */
+  .categories {
+    padding: 60px 40px 40px 40px;
+  }
+
+  .cat-a h3 {
+    font-size: 28px;
+  }
+
+  .cat-a p a {
+    font-size: 18px;
+  }
+
+  .cat-a p {
+    font-size: 20px;
+  }
+
+  .cat-btn {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 16px;
+  }
+
+  .cat-btn a {
+    font-size: 16px;
+  }
+
+  .cat-b h3 {
+    font-size: 18px;
+    padding-bottom: 10px;
+  }
+
+  .cat-b p {
+    font-size: 14px;
+  }
+
+  .cat-b h3 a {
+  font-size: 18px;
+}
+
+
+  /* Section 13 */
+  .section13 {
+    padding: 80px 200px;
+  }
+
+  .section13 h2 {
+    font-size: 32px;
+  }
 }
